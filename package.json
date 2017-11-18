@@ -1,5 +1,5 @@
 {
-  "name": "module-loader",
+  "name": "gnat-dir-loader",
   "version": "0.0.1",
   "description": "Auto load all modules in assigned directory.",
   "main": "index.js",
