@@ -60,12 +60,11 @@ diff@3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.3.1.tgz#aa8567a6eed03c531fc89d3f711cd0e5259dec75"
 
-dir-traverse@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/dir-traverse/-/dir-traverse-0.1.1.tgz#48b46f9b0ecbbc48ae492635f8ee34a4e614d0cb"
+dir-traverse@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/dir-traverse/-/dir-traverse-0.1.2.tgz#16821a0f950fc723f797fb68bc055b289a51a188"
   dependencies:
     fs "^0.0.1-security"
-    lodash "^4.17.4"
     path "^0.12.7"
 
 escape-string-regexp@1.0.5:
@@ -121,10 +120,6 @@ inherits@2:
 inherits@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.1.tgz#b17d08d326b4423e568eff719f91b0b1cbdf69f1"
-
-lodash@^4.17.4:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
 minimatch@^3.0.4:
   version "3.0.4"

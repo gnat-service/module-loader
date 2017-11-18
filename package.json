@@ -1,6 +1,6 @@
 {
   "name": "gnat-dir-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Auto load all modules in assigned directory.",
   "main": "index.js",
   "repository": "https://github.com/gnat-service/module-loader.git",
@@ -15,6 +15,6 @@
     "prepublishOnly": "npm test"
   },
   "dependencies": {
-    "dir-traverse": "^0.1.1"
+    "dir-traverse": "^0.1.2"
   }
 }
