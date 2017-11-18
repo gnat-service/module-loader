@@ -60,9 +60,9 @@ diff@3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.3.1.tgz#aa8567a6eed03c531fc89d3f711cd0e5259dec75"
 
-dir-traverse@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/dir-traverse/-/dir-traverse-0.1.2.tgz#16821a0f950fc723f797fb68bc055b289a51a188"
+dir-traverse@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/dir-traverse/-/dir-traverse-0.1.3.tgz#ac92c526a7223c45ae54879821deee3f5dc867fd"
   dependencies:
     fs "^0.0.1-security"
     path "^0.12.7"
