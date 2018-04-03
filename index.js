@@ -6,7 +6,7 @@ const traverser = require('dir-traverse');
 
 const load = (dir, options) => {
     const modules = [];
-    const handler = (attrs) => {
+    const handler = attrs => {
         const {fullPath} = attrs;
         let mo = require(fullPath);
         if (options.handler) {
@@ -19,11 +19,13 @@ const load = (dir, options) => {
 };
 
 /**
- * @param dirs
+ * Filter and load modules from assigned directories.
+ * @param dirs {!object|string|Array.<string>}
  * @param options {?object=}
  * @param options.filter {?string|regexp|Array.<string|regexp>|object=}
- * @param options.handler
- * @returns {*}
+ * @param options.handler <Function>
+ * @returns {object|Array.<object>|object}
+ * @throws {TypeError}
  */
 const loader = (dirs, {filter, handler} = {}) => {
     const fn = dir => load(dir, {filter, handler});
